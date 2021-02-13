@@ -480,9 +480,20 @@
       * --------------------------------------------------*/
      function filter_gallery() {
          var $container = jQuery('#gallery');
+         var count = 0;
+        //   jQuery('#filters a').each(function(i, obj) {
+        //     if(obj.hasClass('selected')) {
+        //         count++;
+        //     }
+        //   });
+        //   if(count >= 1) {
+        //     $container.isotope({
+        //         filter: '.'
+        //     });
+        //   }
          $container.isotope({
              itemSelector: '.item',
-             filter: '*'
+             filter: '.illustration'
          });
          jQuery('#filters a').on("click", function() {
              var $this = jQuery(this);
