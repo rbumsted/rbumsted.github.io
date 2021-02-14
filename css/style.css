@@ -8458,9 +8458,8 @@ i.btn-action-hide {
 .bg-grey, section.bg-grey {
 	background: #F5F9FD;
 }
-.wow {
-	visibility: hidden;
-}
+
+
 #back-to-top {
 	position: fixed;
 	bottom: -40px;
