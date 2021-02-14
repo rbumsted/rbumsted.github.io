@@ -3344,6 +3344,20 @@ box-shadow: 5px 5px 30px 0px rgba(20,20,20,0.2);
 
 .f-box.f-icon-left .fb-text{
 }
+.centering  {	text-align:left;
+	padding:22px 0;
+	min-width:80px;
+	height:485px;
+	padding-left:150px;
+	font-weight: bold;
+	  }
+.bagel {text-align:left;
+	padding:22px 0;
+	min-width:80px;
+	height:485px;
+	}
+.pig {text-align: center;
+	font-weight: bold;}
 
 .d-gallery-item{
 	overflow:hidden;
@@ -7029,6 +7043,7 @@ a.img-icon-zoom {
 .pf_full_width.pf_2_cols .item {
 	width: 49.9%;
 }
+
 .gallery_border {}
 .pf_full_width.gallery_border .item, .pf_full_width.gallery_border.pf_2_cols .item, .pf_full_width.gallery_border.pf_3_cols .item {
 	float: left;
