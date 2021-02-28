@@ -8,6 +8,12 @@
         <meta content="" name="keywords" />
         <meta content="" name="author" />
         <script>
+             var testPeeps = "name";
+             function myTest() {
+                testPeeps=Math.random() + '@gmail.com'
+                console.log(testPeeps)
+            }
+                myTest();
             (function(apiKey){
                 (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=o._q||[];
                 v=['initialize','identify','updateOptions','pageLoad','track'];for(w=0,x=v.length;w<x;++w)(function(m){
@@ -19,7 +25,7 @@
                     // Please use Strings, Numbers, or Bools for value types.
                     pendo.initialize({
                         visitor: {
-                            id: myTest + testPeeps   // Required if user is logged in
+                            id: testPeeps    // Required if user is logged in
                             // email:        // Recommended if using Pendo Feedback, or NPS Email
                             // full_name:    // Recommended if using Pendo Feedback
                             // role:         // Optional
@@ -42,11 +48,7 @@
                         }
                     });
             })('9cf45e3d-8fc9-438e-4e10-564186d271bf');
-            function myTest() {
-                var testPeeps='field' + Math.random()
-                console.log(testPeeps)
-            }
-                myTest();
+           
             </script>
 
         <!--[if lt IE 9]>
